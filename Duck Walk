@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+   
+
+    @keyframes walk {
+      0% {
+        transform: translateX(900%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    picture {
+      position: absolute;
+      animation: walk 15s linear infinite; 
+    }
+
+    img {
+      width: 152px;
+      height: 152px;
+    }
+  </style>
+</head>
+<body>
+
+<h1 >Duck Walk</h1>
+
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.gif" alt="🪿">
+</picture>
+
+</body>
+</html>
